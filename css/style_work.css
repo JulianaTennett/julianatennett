@@ -70,7 +70,7 @@ h3 {
 }
 
 .hovereffect:hover h3, .hovereffect:hover p {
-	/*when I hover on hovereffect, do this to h3 and do this to p*/
+  /*when I hover on hovereffect, do this to h3 and do this to p*/
   opacity: 1;
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);

@@ -42,10 +42,21 @@ li p {
 	padding-left: 1em;
 	padding-right: 1em;
 	margin-right: 2em;
+	position: relative;
+}
+
+@media (min-width:; 1400px) {
+	.photo {
+		padding-left: 2em;
+	}
 }
 
 .photo img+img {
 	padding-top: 3em;
+}
+
+.photo img {
+	max-width: 100%;
 }
 
 .img-responsive {
@@ -131,14 +142,31 @@ li p {
   .descript-box {
   	width: 100%;
   	height: 100%;
+  	margin: auto;
   }
   .description {
     position: relative;
     width: 80%;
     height: 30%;
+    margin: 1.5em auto;
   }
   .outline {
-  	position: absolute;
+    position: absolute;
+    width: 80%;
+    height: 89%;
+    margin: 1.5em 10%;
+  }
+}
+
+@media (max-width: 576px) {
+	.outline {
+		height: 100%;
+	}
+}
+
+@media (min-width: 960px) {
+  .descript-box {
+  	padding-left: 2em;
   }
 }
 
