@@ -1,20 +1,20 @@
 
 h1 {
   font-family: Asap;
-  font-size: 1.35em;
+  font-size: 1em;
   font-weight: 400;
 }
 
 h2 {
   font-family: Rubik;
-  font-size: 1em;
+  font-size: .75em;
   font-weight: 700;
   color: #F94E4E;
 }
 
 p {
   font-family: Rubik;
-  font-size: .85em;
+  font-size: .75em;
   font-weight: 400;
   color: black;
 }
@@ -70,6 +70,7 @@ li p {
 	padding-bottom: 3em;
 	width: 50%;
 	float: left;
+	box-shadow: ;
 }
 
 .process-block-right {
@@ -90,6 +91,19 @@ li p {
 	}
 }
 
+.process-block-outline {
+	border: solid .15em #2ADBD6;
+	transform: translateX(13px) translateY(13px);
+}
+
+.process-block-outline h1 {
+	transform: translateX(-10px) translateY(-10px);
+}
+
+.process-block-outline p {
+	transform: translateX(-10px) translateY(-10px);
+}
+
 .caption {
 	margin-top: 1em;
 	padding-top: .5em;
@@ -100,6 +114,7 @@ li p {
 }
 
 .caption:after {
+	color: #2ADBD6;
 	content: "";
 	position: absolute;
 	left: 0;
@@ -107,7 +122,7 @@ li p {
 	height: 1px;
 	width: 10%;
 	border-top: solid;
-	border-width: .15em;
+	border-width: .2em;
 }
 
 .descript-box {
@@ -118,6 +133,7 @@ li p {
 .description {
 	margin-top: 1.5em;
 	margin-bottom: 2.5em;
+	margin-left: 1em;
 	height: 80%;
 	width: 28%;
 	background-color: white;
@@ -131,6 +147,7 @@ li p {
 .outline {
 	margin-top: 1.5em;
 	margin-bottom: 2.5em;
+	margin-left: 1em;
 	height: 80%;
 	width: 28%;
 	position: fixed;
@@ -162,12 +179,6 @@ li p {
 	.outline {
 		height: 100%;
 	}
-}
-
-@media (min-width: 960px) {
-  .descript-box {
-  	padding-left: 2em;
-  }
 }
 
 
