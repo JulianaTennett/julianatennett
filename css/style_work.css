@@ -1,4 +1,4 @@
-h2 {
+/*h2 {
   font-family: Rubik;
 }
 
@@ -6,6 +6,17 @@ h3 {
   font-family: Rubik;
   font-size: 1em;
   font-weight: 300;
+}*/
+
+.no-padding {
+  padding: 1em;
+}
+
+h2 {
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: .8em;
+  letter-spacing: .1em;
 }
 
 .hovereffect {
@@ -16,7 +27,7 @@ h3 {
   position: relative;
   text-align: center;
   cursor: default;
-  background: #000;
+  background: #F05050;
 }
 
 .hovereffect .overlay {
@@ -36,60 +47,56 @@ h3 {
   width: calc(100% + 20px);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(-10px,0,0);
-  transform: translate3d(-10px,0,0);
+/*  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);*/
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
 .hovereffect:hover img {
-  opacity: 0.4;
+  opacity: 0;
   filter: alpha(opacity=40);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
 
 .hovereffect h2 {
-  color: #fff;
-  text-align: center;
-  position: relative;
-  font-size: 1em;
-  overflow: hidden;
-  padding: 0.5em 0;
-  background-color: transparent;
-}
-
-.hovereffect h3, .hovereffect p{
-  color: #FFF;
+  color: #F8F9F9;
+  font-weight: 700;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(100%,0,0);
-  transform: translate3d(100%,0,0);
+/*  -webkit-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);*/
+}
+
+
+.hovereffect h3, .hovereffect p{
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: .8em;
+  color: #F8F9F9;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+/*  -webkit-transform: translate3d(100%,0,0);
+  transform: translate3d(100%,0,0);*/
 }
 
 .hovereffect:hover h3, .hovereffect:hover p {
   /*when I hover on hovereffect, do this to h3 and do this to p*/
   opacity: 1;
   filter: alpha(opacity=100);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
+/*  -webkit-transform: translate3d(0,0,0);*/
+/*  transform: translate3d(0,0,0);*/
 }
 
-.hovereffect h2 {
-  color: #FFF;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(-100%,0,0);
-  transform: translate3d(-100%,0,0);
-}
 
 .hovereffect:hover h2 {
   opacity: 1;
   filter: alpha(opacity=100);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
+/*  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);*/
 }
