@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for Julie Tennett",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "2.18.7",
+    "gulp": "3.9.1",
+    "gulp-cache": "0.4.5",
+    "gulp-imagemin": "3.1.1",
+    "gulp-sass": "3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianaTennett/julianatennett.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/JulianaTennett/julianatennett.github.io#readme"
+}

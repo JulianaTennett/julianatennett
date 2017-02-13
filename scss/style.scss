@@ -1,9 +1,11 @@
 
-/*text styles*/
+/* Variables */
+$background: #F8F9F9;
+$overlay: #4b4b4b;
 
 
 body {
-  background-color: #F8F9F9;
+  background-color: $background;
 }
 
 
@@ -21,7 +23,7 @@ body {
 
 
 .navbar-light .navbar-brand:hover {
-  color: #4b4b4b;
+  color: $overlay;
 }
 
 .navbar-nav .nav-link {
@@ -44,12 +46,12 @@ body {
 .navbar-nav {
 	float: right;
   margin-top: .25em;
-} 
+}
 
 .navbar-nav .nav-item {
   text-align: center;
   width: 3.75em;
-} 
+}
 
 /*mobile first*/
 
