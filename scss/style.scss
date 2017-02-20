@@ -1,40 +1,26 @@
 
 /* Variables */
 $background: #F8F9F9;
-
+$text: #292929;
 
 
 body {
   background-color: $background;
 }
 
-
 .navbar-brand {
-  font-family: Asap;
-  letter-spacing: 0.1em;
+  width: 100%;
+  text-align: center;
 }
 
-@media (max-width: 543px) {
-  .navbar-brand {
-    width: 100%;
-    text-align: center;
-  }
-}
-
-
-.navbar-light .navbar-brand:hover {
-  color: #4b4b4b;
-}
-
-.navbar-nav .nav-link {
+.navbar-nav .nav-item {
   font-family: Asap;
   font-size: .7em;
   letter-spacing: 0.09em;
+  text-align: center;
+  width: 3.75em;
+  color: $text;
 }
-
-
-
-/*navbar*/
 
 .navbar {
   padding-left: 2em;
@@ -44,58 +30,23 @@ body {
 }
 
 .navbar-nav {
-	float: right;
   margin-top: .25em;
+  width: 103%;
 }
 
-.navbar-nav .nav-item {
-  text-align: center;
-  width: 3.75em;
+ul {
+  display: flex;
+  justify-content: center;
 }
 
-/*mobile first*/
-
-@media (max-width: 543px) {
-  .navbar-nav {
-    width: 103%;
-  }
-  ul {
-    display: flex;
-    justify-content: center;
-  }
-  ul li {
-    padding: 0;
-  }
-/*  .navbar:after {
-    position: relative;
-    width: calc(100vw-100px);
-    border-bottom: solid .01em #9FA1A3;
-    transform: translateY(-4px);
-    z-index: -1;
-  }*/
-  .nav-item {
-    width: 100%;
-    display: inline-block;
-  }
-  .navbar-nav .nav-item {
-    float: center;
-  }
+.nav-item {
+  width: 100%;
+  display: inline-block;
 }
 
-@media (min-width: 543px) {
-  .navbar:after {
-    position: relative;
-    width: calc(100vw - 200px);
-    border-bottom: solid .01em #9FA1A3;
-    transform: translateY(-18px);
-    z-index: -1;
-    float: right;
-  }
-}
-
-
-.navbar-light .navbar-nav .nav-link {
-  color: #424242;
+.navbar-nav .nav-link:hover {
+  padding-top: .25em;
+  height: 2.65em;
 }
 
 .current-page {
@@ -105,21 +56,40 @@ body {
   margin-top: .32em;
 }
 
-.navbar-nav .nav-link:hover {
-  padding-top: .25em;
-  height: 2.65em;
+
+@media (min-width: 543px) {
+  .navbar-brand {
+    width: 10%;
+    text-align: left;
+  }
+  .navbar:after {
+    position: relative;
+    width: calc(100vw - 200px);
+    border-bottom: solid .01em #9FA1A3;
+    transform: translateY(-18px);
+    z-index: -1;
+    float: right;
+  }
+  .navbar-nav {
+    width: 50%;
+  }
+  ul {
+    float: right;
+    justify-content: flex-end;
+  }
 }
+
 
 
 /*general padding and margin*/
 
 .margin-under-nav {
-  margin-top: 3.58em;
+  margin-top: 5.95em;
 }
 
-@media (max-width: 543px) {
+@media (min-width: 543px) {
   .margin-under-nav {
-    margin-top: 5.95em;
+    margin-top: 3.58em;
   }
 }
 
