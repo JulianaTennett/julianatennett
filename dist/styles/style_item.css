@@ -6,14 +6,14 @@ h1 {
 
 h3 {
   font-family: Rubik;
-  font-size: .85em;
+  font-size: .75em;
   font-weight: 700;
   color: #292929;
   margin-top: 4em; }
 
 li h3 {
   color: #F94E4E;
-  margin-top: 0; }
+  margin-top: 1em; }
 
 p {
   font-family: Rubik;
@@ -23,9 +23,6 @@ p {
 
 .photo p {
   margin-bottom: 1em; }
-
-li p {
-  font-size: .85em; }
 
 .item {
   display: inline-block;
@@ -42,7 +39,7 @@ li p {
   position: relative; }
 
 .photo img + img {
-  margin-top: 1.5em; }
+  margin-top: 2em; }
 
 .photo img {
   max-width: 100%;
@@ -137,12 +134,9 @@ li p {
 
 .deets {
   list-style: none;
-  font-family: Rubik;
-  font-size: .85em;
-  font-weight: 700;
   color: #F94E4E;
   padding-left: 0;
-  margin-bottom: 1em;
+  margin-bottom: .75em;
   display: flex; }
 
 .deets li {
@@ -193,7 +187,13 @@ button {
   color: #696767; }
 
 .arrow-link:hover {
+  color: white; }
+
+.arrow {
   color: #696767; }
+
+.arrow:hover {
+  color: #F94E4E; }
 
 @media (max-width: 960px) {
   .previous {

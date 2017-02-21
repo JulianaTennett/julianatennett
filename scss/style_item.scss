@@ -11,7 +11,7 @@ h1 {
 
 h3 {
   font-family: Rubik;
-  font-size: .85em;
+  font-size: .75em;
   font-weight: 700;
   color: $text;
   margin-top: 4em;
@@ -19,7 +19,7 @@ h3 {
 
 li h3 {
 	color: $pink;
-  margin-top: 0;
+  margin-top: 1em;
 }
 
 p {
@@ -31,10 +31,6 @@ p {
 
 .photo p {
   margin-bottom: 1em;
-}
-
-li p {
-	font-size: .85em;
 }
 
 .item {
@@ -54,7 +50,7 @@ li p {
 }
 
 .photo img+img {
-	margin-top: 1.5em;
+	margin-top: 2em;
 }
 
 .photo img {
@@ -172,12 +168,9 @@ li p {
 
 .deets {
 	list-style: none;
-	font-family: Rubik;
-	font-size: .85em;
-  font-weight: 700;
   color: $pink;
   padding-left: 0;
-  margin-bottom: 1em;
+  margin-bottom: .75em;
   display: flex;
   }
 
@@ -202,6 +195,7 @@ li p {
  	color: #696767;
  	float: right;
  }
+
 
  .description .btn {
  	padding: 0;
@@ -243,7 +237,15 @@ button {
 }
 
 .arrow-link:hover {
-	color: #696767;
+	color: white;
+}
+
+.arrow {
+  color: #696767;
+}
+
+.arrow:hover {
+  color: $pink;
 }
 
 @media (max-width: 960px) {

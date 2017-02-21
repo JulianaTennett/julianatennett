@@ -4,7 +4,8 @@ body {
 
 .navbar-brand {
   width: 100%;
-  text-align: center; }
+  display: flex;
+  justify-content: center; }
 
 .navbar-nav .nav-item {
   font-family: Asap;
@@ -23,6 +24,9 @@ body {
 .navbar-nav {
   margin-top: .25em;
   width: 103%; }
+
+.navbar-nav .nav-link {
+  padding-top: 1.3em; }
 
 ul {
   display: flex;
@@ -61,7 +65,7 @@ ul {
 
 /*general padding and margin*/
 .margin-under-nav {
-  margin-top: 5.95em; }
+  margin-top: 8em; }
 
 @media (min-width: 543px) {
   .margin-under-nav {
