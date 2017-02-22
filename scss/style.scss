@@ -12,6 +12,10 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+  @media (min-width: 543px) {
+    width: inherit;
+    text-align: left;
+  }
 }
 
 .navbar-nav .nav-item {
@@ -30,19 +34,33 @@ body {
   padding-bottom: 0;
 }
 
+@media (min-width: 543px) {
+  .navbar:after {
+    position: relative;
+    width: calc(100vw - 200px);
+    border-bottom: solid .01em #9FA1A3;
+    transform: translateY(-18px);
+    z-index: -1;
+    float: right;
+  }
+}
+
 .navbar-nav {
   margin-top: .25em;
   width: 103%;
+  display: flex;
+  justify-content: center;
+  @media (min-width: 543px) {
+      width: 50%;
+      float: right;
+      justify-content: flex-end;
+  }
 }
 
 .navbar-nav .nav-link {
   padding-top: 1.3em;
 }
 
-ul {
-  display: flex;
-  justify-content: center;
-}
 
 .nav-item {
   width: 100%;
@@ -61,40 +79,12 @@ ul {
   margin-top: .32em;
 }
 
-
-@media (min-width: 543px) {
-  .navbar-brand {
-    width: 10%;
-    text-align: left;
-  }
-  .navbar:after {
-    position: relative;
-    width: calc(100vw - 200px);
-    border-bottom: solid .01em #9FA1A3;
-    transform: translateY(-18px);
-    z-index: -1;
-    float: right;
-  }
-  .navbar-nav {
-    width: 50%;
-  }
-  ul {
-    float: right;
-    justify-content: flex-end;
-  }
-}
-
-
-
 /*general padding and margin*/
 
 .margin-under-nav {
   margin-top: 8em;
-}
-
-@media (min-width: 543px) {
-  .margin-under-nav {
-    margin-top: 3.58em;
+  @media (min-width: 543px) {
+    margin-top: 5em;
   }
 }
 

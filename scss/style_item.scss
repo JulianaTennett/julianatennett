@@ -29,7 +29,7 @@ p {
   color: $text;
 }
 
-.photo p {
+.process p {
   margin-bottom: 1em;
 }
 
@@ -42,18 +42,24 @@ p {
   padding-right: 1.25em;
 }
 
-.photo {
+.process {
   width: 100%;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+  padding-left: 4em;
+  padding-right: 4em;
 	position: relative;
+  @media (min-width: 960px) {
+    width: inherit;
+  }
+  @media (min-width: 1400px) {
+  	padding-left: 2em;
+  }
 }
 
-.photo img+img {
+.process img+img {
 	margin-top: 2em;
 }
 
-.photo img {
+.process img {
 	max-width: 100%;
   margin-top: 1em;
 }
@@ -62,15 +68,6 @@ p {
 	max-width: 100%;
 	height: auto;
 	display: block;
-}
-
-@media (min-width: 1400px) {
-	.photo {
-		padding-left: 2em;
-	}
-	.description {
-		border: none;
-	}
 }
 
 .process-block-left {
@@ -122,6 +119,10 @@ p {
   width: 100%;
   height: 100%;
   margin: auto;
+  @media (min-width: 960px) {
+    width: 20em;
+    height: 30em;
+  }
 }
 
 .description {
@@ -129,15 +130,10 @@ p {
   position: relative;
   width: 80%;
   margin: 1.5em auto;
-}
-
-
-@media (min-width: 960px) {
-  .descript-box {
-    width: 20em;
-  	height: 30em;
+  @media (min-width: 1400px) {
+  	border: none;
   }
-  .description {
+  @media (min-width: 960px) {
     margin-top: 1.5em;
   	margin-bottom: 2.5em;
   	margin-left: 1em;
@@ -151,18 +147,19 @@ p {
   	border-right: solid .12em $pink;
   	border-bottom: solid .12em $pink;
   }
-  .outline {
+}
+
+
+.outline {
+  @media (max-width: 576px) {
+  	height: 100%;
+  }
+  @media (min-width: 960px) {
     position: absolute;
     width: 80%;
     height: 89%;
     margin: 1.5em 10%;
   }
-}
-
-@media (max-width: 576px) {
-	.outline {
-		height: 100%;
-	}
 }
 
 
@@ -219,6 +216,10 @@ button {
 .previous {
 	position: fixed;
 	color: #696767;
+  @media (max-width: 960px) {
+  	 position: relative;
+  	 margin-top: 0;
+  }
 }
 
 .next-place{
@@ -230,6 +231,9 @@ button {
 
 .next {
 	position: fixed;
+  @media (max-width: 960px) {
+  	 position: relative;
+  }
 }
 
 .arrow-link {
@@ -246,14 +250,4 @@ button {
 
 .arrow:hover {
   color: $pink;
-}
-
-@media (max-width: 960px) {
-	.previous {
-	  position: relative;
-	  margin-top: 0;
-	}
-	.next {
-	  position: relative;
-	}
 }
