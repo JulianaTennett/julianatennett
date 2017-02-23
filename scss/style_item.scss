@@ -44,11 +44,9 @@ p {
 
 .process {
   width: 100%;
-  padding-left: 4em;
-  padding-right: 4em;
-	position: relative;
+  padding-left: 1em;
   @media (min-width: 960px) {
-    width: inherit;
+    width: 58.33333%;
   }
   @media (min-width: 1400px) {
   	padding-left: 2em;
@@ -134,13 +132,12 @@ p {
   	border: none;
   }
   @media (min-width: 960px) {
+    height: 80%;
+  	width: 28%;
     margin-top: 1.5em;
   	margin-bottom: 2.5em;
-  	margin-left: 1em;
-  	height: 80%;
-  	width: 28%;
-  	padding-top: 1.5em;
-  	padding-left: 2.25em;
+  	margin-left: 3em;
+    padding-left: 2em;
   	padding-right: 2.25em;
   	padding-bottom: 2.25em;
   	position: fixed;
@@ -158,7 +155,7 @@ p {
     position: absolute;
     width: 80%;
     height: 89%;
-    margin: 1.5em 10%;
+    margin: 3.5em 10%;
   }
 }
 
