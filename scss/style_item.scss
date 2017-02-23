@@ -14,7 +14,7 @@ h3 {
   font-size: .75em;
   font-weight: 700;
   color: $text;
-  margin-top: 4em;
+  margin-top: 6em;
 }
 
 li h3 {
@@ -30,7 +30,7 @@ p {
 }
 
 .process p {
-  margin-bottom: 1em;
+  margin-bottom: 5em;
 }
 
 .item {
@@ -44,11 +44,10 @@ p {
 
 .process {
   width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 0 10% 7em 10%;
   @media (min-width: 992px) {
     width: 58.33333%;
-    margin: 0;
+    margin: 0 0 7em 0;
   }
   @media (min-width: 1400px) {
   	padding-left: 2em;
@@ -71,25 +70,30 @@ p {
 }
 
 .half-img-right {
-  width: 100%;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
   @media (min-width: 992px) {
     width: 50%;
     float: right;
+    margin: 0;
   }
 }
 
 .process-block-left {
-	padding-top: 3em;
-	padding-bottom: 3em;
-	width: 50%;
-	float: left;
+  @media (min-width: 992px) {
+    padding-right: 1em;
+    width: 50%;
+    float: left;
+  }
 }
 
 .process-block-right {
-	padding-top: 3em;
-	padding-bottom: 3em;
-	width: 50%;
-	float: right;
+  @media (min-width: 992px) {
+    padding-left: 1em;
+    width: 50%;
+    float: right;
+  }
 }
 
 @media (max-width: 576px) {
@@ -105,6 +109,7 @@ p {
 
 .caption {
 	margin-top: 2em;
+  margin-bottom: 4em;
 	padding-top: .75em;
 	width: 100%;
 	font-size: .8em;
