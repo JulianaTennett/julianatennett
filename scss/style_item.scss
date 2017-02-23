@@ -80,6 +80,15 @@ p {
   }
 }
 
+.img-three-quarter-left {
+  width: 100%;
+  @media (min-width: 992px) {
+    width: 70%;
+    float: left;
+    margin: 0;
+  }
+}
+
 .process-block-left {
   @media (min-width: 992px) {
     padding-right: 1em;
@@ -93,6 +102,20 @@ p {
     padding-left: 1em;
     width: 50%;
     float: right;
+  }
+}
+
+.process-three-quarter-right .caption {
+  @media (min-width: 992px) {
+    padding-left: 1em;
+    width: 30%;
+    float: right;
+  }
+}
+
+.process-three-quarter-right .caption::after {
+  @media (min-width: 992px) {
+    margin-left: 30px;
   }
 }
 
@@ -120,7 +143,6 @@ p {
 	color: $pink;
 	content: "";
 	position: absolute;
-	left: 0;
 	top: 0;
 	height: 1px;
 	width: 15%;
@@ -147,7 +169,7 @@ p {
   	border: none;
   }
   @media (min-width: 992px) {
-    height: 80%;
+    height: inherit;
   	width: 28%;
     margin-top: 1.5em;
   	margin-bottom: 2.5em;
