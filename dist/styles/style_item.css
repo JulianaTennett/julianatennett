@@ -35,7 +35,7 @@ p {
 .process {
   width: 100%;
   padding-left: 1em; }
-  @media (min-width: 960px) {
+  @media (min-width: 992px) {
     .process {
       width: 58.33333%; } }
   @media (min-width: 1400px) {
@@ -96,7 +96,7 @@ p {
   width: 100%;
   height: 100%;
   margin: auto; }
-  @media (min-width: 960px) {
+  @media (min-width: 992px) {
     .descript-box {
       width: 20em;
       height: 30em; } }
@@ -109,7 +109,7 @@ p {
   @media (min-width: 1400px) {
     .description {
       border: none; } }
-  @media (min-width: 960px) {
+  @media (min-width: 992px) {
     .description {
       height: 80%;
       width: 28%;
@@ -127,7 +127,7 @@ p {
   .outline {
     height: 100%; } }
 
-@media (min-width: 960px) {
+@media (min-width: 992px) {
   .outline {
     position: absolute;
     width: 80%;
