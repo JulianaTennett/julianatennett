@@ -56,6 +56,13 @@ p {
   height: auto;
   display: block; }
 
+.half-img-right {
+  width: 100%; }
+  @media (min-width: 992px) {
+    .half-img-right {
+      width: 50%;
+      float: right; } }
+
 .process-block-left {
   padding-top: 3em;
   padding-bottom: 3em;
