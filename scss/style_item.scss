@@ -171,15 +171,14 @@ p {
   @media (min-width: 992px) {
     height: inherit;
   	width: 28%;
-    margin-top: 1.5em;
   	margin-bottom: 2.5em;
   	margin-left: 3em;
     padding-left: 2em;
   	padding-right: 2.25em;
   	padding-bottom: 2.25em;
   	position: fixed;
-  	border-right: solid .12em $pink;
-  	border-bottom: solid .12em $pink;
+    border-right: solid .12em $pink;
+    border-bottom: solid .12em $pink;
   }
 }
 
