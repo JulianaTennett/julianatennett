@@ -21,6 +21,15 @@ p {
   font-weight: 400;
   color: #292929; }
 
+.link-style {
+  color: #292929;
+  border-bottom: solid 0.15em #F94E4E;
+  padding-bottom: .25em; }
+
+.link-style:hover {
+  text-decoration: none;
+  color: #F94E4E; }
+
 .process p {
   margin-bottom: 5em; }
 

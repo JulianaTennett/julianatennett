@@ -29,6 +29,17 @@ p {
   color: $text;
 }
 
+.link-style {
+  color: $text;
+  border-bottom: solid .15em $pink;
+  padding-bottom: .25em;
+}
+
+.link-style:hover {
+  text-decoration: none;
+  color: $pink;
+}
+
 .process p {
   margin-bottom: 5em;
 }
