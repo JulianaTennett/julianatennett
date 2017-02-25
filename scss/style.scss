@@ -1,8 +1,9 @@
 
 /* Variables */
 $background: #F8F9F9;
-$pink: #F94E4E;
+$pink: #F05050;
 $text: #292929;
+$dark-gray: #9FA1A3;
 
 h1 {
   font-family: Asap;
@@ -74,16 +75,15 @@ body {
   padding-right: 2em;
   padding-top: .65em;
   padding-bottom: 0;
-}
-
-@media (min-width: 543px) {
-  .navbar:after {
-    position: relative;
-    width: calc(100vw - 200px);
-    border-bottom: solid .01em #9FA1A3;
-    transform: translateY(-18px);
-    z-index: -1;
-    float: right;
+  @media (min-width: 543px) {
+    &:after {
+      position: relative;
+      width: calc(100vw - 200px);
+      border-bottom: solid .01em $dark-gray;
+      transform: translateY(-18px);
+      z-index: -1;
+      float: right;
+    }
   }
 }
 
@@ -107,13 +107,26 @@ body {
 .nav-item {
   width: 100%;
   display: inline-block;
+  &:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0;
+    background-color: $pink;
+    margin-top: 0;
+    transition: height 0.2s linear;
+  }
+  &--active:after,
+  &:hover:after {
+    height: .7em;
+  }
 }
 
 
 .current-page {
   width: 100%;
   height: .7em;
-  background-color: #F05050;
+  background-color: $pink;
   margin-top: 0;
 }
 
@@ -125,7 +138,7 @@ body {
   display: none;
   width: 100%;
   height: .7em;
-  background-color: #F05050;
+  background-color: $pink;
   margin-top: 0;
 }
 

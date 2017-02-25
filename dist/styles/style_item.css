@@ -89,7 +89,7 @@
   position: relative; }
 
 .caption:after {
-  color: #F94E4E;
+  color: #F05050;
   content: "";
   position: absolute;
   top: 0;
@@ -125,8 +125,8 @@
       padding-right: 2.25em;
       padding-bottom: 2.25em;
       position: fixed;
-      border-right: solid 0.12em #F94E4E;
-      border-bottom: solid 0.12em #F94E4E; } }
+      border-right: solid 0.12em #F05050;
+      border-bottom: solid 0.12em #F05050; } }
 
 @media (max-width: 576px) {
   .outline {
@@ -141,7 +141,7 @@
 
 .deets {
   list-style: none;
-  color: #F94E4E;
+  color: #F05050;
   padding-left: 0;
   margin-bottom: .75em;
   display: flex; }
@@ -207,4 +207,4 @@ button {
   color: #696767; }
 
 .arrow:hover {
-  color: #F94E4E; }
+  color: #F05050; }
