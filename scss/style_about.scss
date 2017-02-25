@@ -15,21 +15,21 @@ $text: #292929;
 }
 
 .contact {
-	list-style: none;
+  list-style: none;
   display: flex;
   width: 75%;
 }
 
 .contact li {
-	display: inline;
+  display: inline;
 }
 
 .contact-item {
-	width: 100%;
+  width: 100%;
 }
 
 .contact-item+.contact-item {
-	margin-left: 1em;
+  margin-left: 1em;
 }
 
 .about-me {

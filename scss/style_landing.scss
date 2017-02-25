@@ -1,17 +1,17 @@
 $dark-gray: #9FA1A3;
 
 .landing {
-	display: flex;
-	justify-content: center;
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
 
 
 
 .logo-landing {
-	width: 60%;
-	height: 100%;
+  width: 60%;
+  height: 100%;
 }
 
 @media (max-width: 543px) {
@@ -22,27 +22,27 @@ $dark-gray: #9FA1A3;
 }
 
 .featured-text {
-	margin-top: 2.5em;
-	margin-bottom: 1em;
-	display: flex;
-	justify-content: center;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
 }
 
 .featured {
-	display: flex;
-	justify-content: center;
-	width: 60%;
-	padding-top: .75em;
-	padding-bottom: .25em;
-	border-top: solid .1em $dark-gray;
-	border-bottom: solid .1em $dark-gray;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  padding-top: .75em;
+  padding-bottom: .25em;
+  border-top: solid .1em $dark-gray;
+  border-bottom: solid .1em $dark-gray;
 }
 
 h2 {
-	font-family: Asap;
-	font-weight: 400;
-	font-size: .8em;
-	letter-spacing: .1em;
+  font-family: Asap;
+  font-weight: 400;
+  font-size: .8em;
+  letter-spacing: .1em;
 }
 
 .hovereffect {
@@ -128,5 +128,5 @@ h2 {
 }
 
 .navbar:after {
-	border-bottom: none;
+  border-bottom: none;
 }

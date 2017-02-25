@@ -8,7 +8,7 @@ $text: #292929;
 }
 
 .item {
-	display: inline-block;
+  display: inline-block;
   background-color: $background;
   width: 100%;
   height: 100%;
@@ -24,23 +24,23 @@ $text: #292929;
     margin: 0 0 7em 0;
   }
   @media (min-width: 1400px) {
-  	padding-left: 2em;
+    padding-left: 2em;
   }
 }
 
 .process img+img {
-	margin-top: 2em;
+  margin-top: 2em;
 }
 
 .process img {
-	max-width: 100%;
+  max-width: 100%;
   margin-top: 1em;
 }
 
 .img-responsive {
-	max-width: 100%;
-	height: auto;
-	display: block;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .half-img-right {
@@ -94,34 +94,34 @@ $text: #292929;
 }
 
 @media (max-width: 576px) {
-	.process-block-left {
-		width: 100%;
-		float: left;
-	}
-	.process-block-right {
-		width: 100%;
-		float: left;
-	}
+  .process-block-left {
+    width: 100%;
+    float: left;
+  }
+  .process-block-right {
+    width: 100%;
+    float: left;
+  }
 }
 
 .caption {
-	margin-top: 2em;
+  margin-top: 2em;
   margin-bottom: 4em;
-	padding-top: .75em;
-	width: 100%;
-	font-size: .8em;
-	position: relative;
+  padding-top: .75em;
+  width: 100%;
+  font-size: .8em;
+  position: relative;
 }
 
 .caption:after {
-	color: $pink;
-	content: "";
-	position: absolute;
-	top: 0;
-	height: 1px;
-	width: 15%;
-	border-top: solid;
-	border-width: .2em;
+  color: $pink;
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 1px;
+  width: 15%;
+  border-top: solid;
+  border-width: .2em;
 }
 
 .descript-box {
@@ -140,17 +140,17 @@ $text: #292929;
   width: 80%;
   margin: 1.5em auto;
   @media (min-width: 1400px) {
-  	border: none;
+    border: none;
   }
   @media (min-width: 992px) {
     height: inherit;
-  	width: 28%;
-  	margin-bottom: 2.5em;
-  	margin-left: 3em;
+    width: 28%;
+    margin-bottom: 2.5em;
+    margin-left: 3em;
     padding-left: 2em;
-  	padding-right: 2.25em;
-  	padding-bottom: 2.25em;
-  	position: fixed;
+    padding-right: 2.25em;
+    padding-bottom: 2.25em;
+    position: fixed;
     border-right: solid .12em $pink;
     border-bottom: solid .12em $pink;
   }
@@ -159,7 +159,7 @@ $text: #292929;
 
 .outline {
   @media (max-width: 576px) {
-  	height: 100%;
+    height: 100%;
   }
   @media (min-width: 992px) {
     position: absolute;
@@ -171,7 +171,7 @@ $text: #292929;
 
 
 .deets {
-	list-style: none;
+  list-style: none;
   color: $pink;
   padding-left: 0;
   margin-bottom: .75em;
@@ -179,76 +179,76 @@ $text: #292929;
   }
 
 .deets li {
-	display: inline;
+  display: inline;
 }
 
 .deet-item {
-	width: 100%;
+  width: 100%;
 }
 
 .deet-item+.deet-item {
-	margin-left: 1em;
+  margin-left: 1em;
 }
 
  .arrow-link-prev {
-  	color: #696767;
-  	float: left;
+    color: #696767;
+    float: left;
  }
 
  .arrow-link-next {
- 	color: #696767;
- 	float: right;
+   color: #696767;
+   float: right;
  }
 
 
  .description .btn {
- 	padding: 0;
+   padding: 0;
  }
 
 .right {
-	float: right;
+  float: right;
 }
 
 
 button {
-	background-color: transparent;
+  background-color: transparent;
 }
 
 .prev-place{
-	margin-top: 16em;
-	width: 2.5em;
-	padding-right: 3em;
+  margin-top: 16em;
+  width: 2.5em;
+  padding-right: 3em;
 }
 
 .previous {
-	position: fixed;
-	color: #696767;
+  position: fixed;
+  color: #696767;
   @media (max-width: 960px) {
-  	 position: relative;
-  	 margin-top: 0;
+     position: relative;
+     margin-top: 0;
   }
 }
 
 .next-place{
-	margin-top: 16em;
-	width: 2.5em;
-	padding-right: 3em;
-	float: right;
+  margin-top: 16em;
+  width: 2.5em;
+  padding-right: 3em;
+  float: right;
 }
 
 .next {
-	position: fixed;
+  position: fixed;
   @media (max-width: 960px) {
-  	 position: relative;
+     position: relative;
   }
 }
 
 .arrow-link {
-	color: #696767;
+  color: #696767;
 }
 
 .arrow-link:hover {
-	color: white;
+  color: white;
 }
 
 .arrow {
