@@ -1,0 +1,33 @@
+/* Variables */
+.about-img {
+  width: 100%; }
+
+.greeting {
+  font-family: Asap;
+  font-size: 3em;
+  color: #292929; }
+
+.contact {
+  list-style: none;
+  display: flex;
+  width: 75%; }
+
+.contact li {
+  display: inline; }
+
+.contact-item {
+  width: 100%; }
+
+.contact-item + .contact-item {
+  margin-left: 1em; }
+
+.about-me {
+  background-color: white;
+  margin-top: 2em;
+  padding: 2em; }
+
+.pink-border {
+  padding-right: 1em;
+  padding-bottom: 1em;
+  border-right: solid 0.1em #F94E4E;
+  border-bottom: solid 0.1em #F94E4E; }

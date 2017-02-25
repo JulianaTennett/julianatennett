@@ -1,8 +1,50 @@
 
 /* Variables */
 $background: #F8F9F9;
+$pink: #F94E4E;
 $text: #292929;
 
+h1 {
+  font-family: Asap;
+  font-size: 1em;
+  font-weight: 400;
+  color: $text;
+}
+
+h3 {
+  font-family: Rubik;
+  font-size: .75em;
+  font-weight: 700;
+  color: $text;
+  margin-top: 6em;
+}
+
+li h3 {
+	color: $pink;
+  margin-top: 1em;
+}
+
+p {
+  font-family: Rubik;
+  font-size: .75em;
+  font-weight: 400;
+  color: $text;
+}
+
+.link-style {
+  color: $text;
+  border-bottom: solid .15em $pink;
+  padding-bottom: .25em;
+}
+
+.link-style:hover {
+  text-decoration: none;
+  color: $pink;
+}
+
+.link-style:visited {
+  color: $text;
+}
 
 body {
   background-color: $background;
