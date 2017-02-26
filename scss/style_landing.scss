@@ -1,4 +1,7 @@
 $dark-gray: #9FA1A3;
+$background: #F8F9F9;
+$pink: #F05050;
+$text: #292929;
 
 .portfolio-item {
   padding: .5em;
@@ -60,7 +63,7 @@ h2 {
   position: relative;
   text-align: center;
   cursor: default;
-  background: #F05050;
+  background: $pink;
 }
 
 .hovereffect .overlay {
@@ -94,7 +97,7 @@ h2 {
 }
 
 .hovereffect h2 {
-  color: #F8F9F9;
+  color: $background;
   font-weight: 700;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -109,7 +112,7 @@ h2 {
   font-family: Asap;
   font-weight: 400;
   font-size: .8em;
-  color: #F8F9F9;
+  color: $background;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -136,4 +139,12 @@ h2 {
 
 .navbar:after {
   border-bottom: none;
+}
+
+.featured-title h2 {
+  font-size: 1em;
+}
+
+.featured-title h2 {
+  font-size: 2em;
 }
