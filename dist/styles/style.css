@@ -38,6 +38,9 @@ body {
   background-color: #F8F9F9; }
 
 /* NAVIGATION STYLES */
+.bg-faded {
+  background-color: transparent; }
+
 .navbar {
   padding-left: 2em;
   padding-right: 2em;
@@ -106,5 +109,4 @@ body {
 
 .no-padding {
   padding-left: 0;
-  padding-right: 0;
-}
+  padding-right: 0; }
