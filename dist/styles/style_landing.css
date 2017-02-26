@@ -13,6 +13,16 @@
     width: 100%;
     height: 100%; } }
 
+.portfolio-body {
+  padding: 1em;
+}
+
+.portfolio-item {
+  padding: 1em;
+}
+
+
+
 .featured-text {
   margin-top: 2.5em;
   margin-bottom: 1em;
