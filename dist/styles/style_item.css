@@ -40,7 +40,23 @@
     .half-img-right {
       width: 50%;
       float: right;
-      margin: 0; } }
+      margin: 0;
+      padding-left: 2em; } }
+
+.half-img-left {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%; }
+  @media (min-width: 992px) {
+    .half-img-left {
+      width: 50%;
+      float: left;
+      margin: 0;
+      padding-right: 2em; } }
+
+.control-img-height {
+  width: 50%;
+  height: auto; }
 
 .img-three-quarter-left {
   width: 100%; }
@@ -85,7 +101,6 @@
   margin-bottom: 4em;
   padding-top: .75em;
   width: 100%;
-  font-size: .8em;
   position: relative; }
 
 .caption:after {
