@@ -80,9 +80,7 @@ h2 {
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  /*  -webkit-transform: translate3d(-100%,0,0);
-  transform: translate3d(-100%,0,0);*/ }
+  transition: opacity 0.35s, transform 0.35s; }
 
 .hovereffect h3 {
   margin-top: 7%;
@@ -93,22 +91,37 @@ h2 {
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  /*  -webkit-transform: translate3d(100%,0,0);
-  transform: translate3d(100%,0,0);*/ }
+  transition: opacity 0.35s, transform 0.35s; }
+
+.hovereffect-feature h2 {
+  margin-top: 7%;
+  color: #F8F9F9;
+  font-weight: 700;
+  font-size: 1.25em;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s; }
+
+.hovereffect-feature h3 {
+  margin-top: 5%;
+  font-family: Asap;
+  font-weight: 400;
+  font-size: .8em;
+  color: #F8F9F9;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s; }
 
 .hovereffect:hover h3, .hovereffect:hover p {
   /*when I hover on hovereffect, do this to h3 and do this to p*/
   opacity: 1;
-  filter: alpha(opacity=100);
-  /*  -webkit-transform: translate3d(0,0,0);*/
-  /*  transform: translate3d(0,0,0);*/ }
+  filter: alpha(opacity=100); }
 
 .hovereffect:hover h2 {
   opacity: 1;
-  filter: alpha(opacity=100);
-  /*  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);*/ }
+  filter: alpha(opacity=100); }
 
 .navbar:after {
   border-bottom: none; }
