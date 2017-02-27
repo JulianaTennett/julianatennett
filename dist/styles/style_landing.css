@@ -16,11 +16,6 @@
   width: 60%;
   height: 100%; }
 
-@media (max-width: 543px) {
-  .logo-landing {
-    width: 100%;
-    height: 100%; } }
-
 .featured-text {
   margin-top: 2.5em;
   margin-bottom: 1em;
