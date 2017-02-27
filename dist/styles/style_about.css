@@ -31,3 +31,20 @@
   padding-bottom: 1em;
   border-right: solid 0.1em #F05050;
   border-bottom: solid 0.1em #F05050; }
+
+.about-pic {
+  padding-left: 2em;
+  padding-right: 2em; }
+  @media (min-width: 768px) {
+    .about-pic {
+      padding: 0; } }
+
+.about-description {
+  padding-left: 2em;
+  padding-right: 2em; }
+  @media (min-width: 768px) {
+    .about-description {
+      padding: 0; } }
+
+.about-content {
+  padding-bottom: 5em; }

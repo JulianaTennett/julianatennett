@@ -44,3 +44,23 @@ $text: #292929;
   border-right: solid .1em $pink;
   border-bottom: solid .1em $pink;
 }
+
+.about-pic {
+  padding-left: 2em;
+  padding-right: 2em;
+  @media (min-width: 768px) {
+    padding: 0;
+  }
+}
+
+.about-description {
+  padding-left: 2em;
+  padding-right: 2em;
+  @media (min-width: 768px) {
+    padding: 0;
+  }
+}
+
+.about-content {
+  padding-bottom: 5em;
+}
