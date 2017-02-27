@@ -275,3 +275,11 @@ button {
 .arrow:hover {
   color: $pink;
 }
+
+
+.pink-border {
+  padding-right: 1em;
+  padding-bottom: 1em;
+  border-right: solid .1em $pink;
+  border-bottom: solid .1em $pink;
+}
