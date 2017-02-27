@@ -1,9 +1,10 @@
 .portfolio-item {
-  padding: .5em; }
+  padding: .7em; }
 
 .portfolio-body {
-  padding: 1em;
-  padding-bottom: 2.5em; }
+  padding: 3em;
+  padding-bottom: 4.5em;
+  padding-top: 0; }
 
 .landing {
   display: flex;
@@ -56,9 +57,8 @@ h2 {
   height: 100%;
   position: absolute;
   overflow: hidden;
-  top: 25%;
-  left: 0;
-  padding: 50px 20px; }
+  top: 20%;
+  left: 0; }
 
 .hovereffect img {
   display: block;
@@ -79,6 +79,7 @@ h2 {
   transform: translate3d(0, 0, 0); }
 
 .hovereffect h2 {
+  margin-top: 12%;
   color: #F8F9F9;
   font-weight: 700;
   opacity: 0;
@@ -88,7 +89,8 @@ h2 {
   /*  -webkit-transform: translate3d(-100%,0,0);
   transform: translate3d(-100%,0,0);*/ }
 
-.hovereffect h3, .hovereffect p {
+.hovereffect h3 {
+  margin-top: 7%;
   font-family: Asap;
   font-weight: 400;
   font-size: .8em;

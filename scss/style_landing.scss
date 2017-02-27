@@ -4,12 +4,13 @@ $pink: #F05050;
 $text: #292929;
 
 .portfolio-item {
-  padding: .5em;
+  padding: .7em;
 }
 
 .portfolio-body {
-  padding: 1em;
-  padding-bottom: 2.5em;
+  padding: 3em;
+  padding-bottom: 4.5em;
+  padding-top: 0;
 }
 
 .landing {
@@ -71,9 +72,9 @@ h2 {
   height: 100%;
   position: absolute;
   overflow: hidden;
-  top: 25%;
+  top: 20%;
   left: 0;
-  padding: 50px 20px;
+  // padding: 50px 20px;
 }
 
 .hovereffect img {
@@ -97,6 +98,7 @@ h2 {
 }
 
 .hovereffect h2 {
+  margin-top: 12%;
   color: $background;
   font-weight: 700;
   opacity: 0;
@@ -108,7 +110,8 @@ h2 {
 }
 
 
-.hovereffect h3, .hovereffect p{
+.hovereffect h3, {
+  margin-top: 7%;
   font-family: Asap;
   font-weight: 400;
   font-size: .8em;
