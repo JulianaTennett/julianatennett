@@ -1,23 +1,59 @@
 /* Variables */
-$pink: #F05050;
-$charcoal: #2F2D2D;
-
-
-/* Styles */
-
+/* Text */
 h1 {
-  font-family: Asap;
-  font-size: 1em;
-  font-weight: 400;
-  color: #292929;
-}
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  color: #2F2D2D; }
+
+.label-pink {
+  font-family: 'Roboto Mono', monotype;
+  font-size: 14px;
+  color: #F05050; }
+
+.label-charcoal {
+  font-family: 'Roboto Mono', monotype;
+  font-size: 16px;
+  color: #2F2D2D; }
+
+.callout-text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 55px;
+  color: #2F2D2D; }
+
+p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  color: #2F2D2D; }
+
+.nav-item a {
+  color: #2F2D2D; }
+
+.nav-title:hover {
+  text-decoration: none;
+  color: #F05050; }
+
+/*Etc*/
+body {
+  background-color: #F9F9F9; }
+
+nav {
+  width: 100%;
+  margin-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed; }
+
+.nav-text {
+  font-family: 'Roboto Mono', monotype;
+  font-size: .75em;
+  color: #F05050; }
 
 .nav-title {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 16px;
-  font-color:
-}
+  color: #F05050;
+  margin: auto; }
 
-.nav-pages {
-
-}
+.navbar-nav {
+  list-style: none;
+  margin: auto;
+  padding: 0; }
