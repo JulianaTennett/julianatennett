@@ -35,7 +35,8 @@ p {
 /*Etc*/
 body {
   background-color: #F9F9F9;
-  width: 100%; }
+  width: 100%;
+  margin: 0; }
 
 nav {
   width: 100%;
@@ -79,3 +80,9 @@ nav {
   .navbar-nav {
     margin: 1em;
     padding: 0; } }
+
+.container {
+  padding: 0; }
+
+.banner {
+  padding-top: 92px; }

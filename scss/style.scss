@@ -52,6 +52,7 @@ p {
 body {
   background-color: #F9F9F9;
   width: 100%;
+  margin: 0;
 }
 
 // Nav
@@ -109,19 +110,16 @@ nav {
   }
 }
 
-// Container
+//Container
 
-// .container {
-//   padding: 0;
-// }
-//
-// .banner {
-//   width: 250%;
-//   display: flex;
-// }
-//
-// .banner-img {
-//   width: 100%;
-//   height: auto;
-//   margin: auto;
-// }
+.container {
+  padding: 0;
+}
+
+.banner {
+  padding-top: 92px;
+}
+
+.banner-img {
+
+}
