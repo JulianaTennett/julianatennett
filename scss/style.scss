@@ -1,8 +1,9 @@
 /* Variables */
-// $pink: #F05050;
-// $charcoal: #2F2D2D;
-// $mono: 'Roboto Mono', monotype;
-// $rubik: 'rubik';
+$pink: #F05050;
+$charcoal: #2F2D2D;
+$mono: 'Roboto Mono', monotype;
+$rubik: 'rubik';
+$background: #F9F9F9;
 
 
 /* Text */
@@ -41,7 +42,7 @@ p {
   color: #2F2D2D;
 }
 
-.nav-title:hover {
+.nav-text:hover {
   text-decoration: none;
   color: #F05050;
 }
@@ -58,7 +59,7 @@ body {
 nav {
   width: 100%;
   padding: 1.5em 0;
-  background-color: #F9F9F9;
+  background-color: $background;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,6 +72,10 @@ nav {
   color: #F05050;
 }
 
+.nav-text a {
+  text-decoration: none;
+}
+
 .nav-title {
   color: #F05050;
   margin: auto;
@@ -78,21 +83,29 @@ nav {
 
 .navbar-nav {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
   margin: auto;
-  padding: 0;
+  padding: 1em 0;
+}
+
+.nav-item {
+  padding: 0 .75em;
 }
 
 @media (min-width: 768px) {
   nav {
-    padding: 1.3em 6.5em;
+    padding: 1em 6.5em;
     flex-direction: row;
     justify-content: space-between;
+    width: 90%;
   }
   .nav-title {
-    margin: inherit;
+    margin: 1em ;
   }
   .navbar-nav {
-    margin: inherit;
+    margin: 1em;
+    padding: 0;
   }
 }
 
