@@ -98,21 +98,22 @@ nav {
 
 .label-item {
   padding: 1em 3em; }
-  @media (min-width: 768px) {
-    .label-item nav {
-      padding: 1em 6.5em;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 90%; }
-    .label-item .nav-title {
-      margin: 1em; }
-    .label-item .navbar-nav {
-      margin: 1em;
-      padding: 0; }
-    .label-item .label {
-      width: inherit;
-      margin-left: 6.5em; }
-    .label-item .project-title {
-      margin: 0; }
-    .label-item .label-content {
-      flex-direction: row; } }
+
+@media (min-width: 768px) {
+  nav {
+    padding: 1em 6.5em;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%; }
+  .nav-title {
+    margin: 1em; }
+  .navbar-nav {
+    margin: 1em;
+    padding: 0; }
+  .label {
+    width: inherit;
+    margin-left: 6.5em; }
+  .project-title {
+    margin: 0; }
+  .label-content {
+    flex-direction: row; } }
