@@ -1,27 +1,27 @@
 /* Variables */
 /* Text */
 h1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 20px;
   color: #2F2D2D; }
 
 .label-pink {
-  font-family: 'Roboto Mono', monotype;
+  font-family: "Roboto Mono", monotype;
   font-size: 14px;
   color: #F05050; }
 
 .label-charcoal {
-  font-family: 'Roboto Mono', monotype;
+  font-family: "Roboto Mono", monotype;
   font-size: 16px;
   color: #2F2D2D; }
 
 .callout-text {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 55px;
   color: #2F2D2D; }
 
 p {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 14px;
   color: #2F2D2D; }
 
@@ -47,7 +47,7 @@ nav {
   position: fixed; }
 
 .nav-text {
-  font-family: 'Roboto Mono', monotype;
+  font-family: "Roboto Mono", monotype;
   font-size: .75em;
   color: #F05050; }
 

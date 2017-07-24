@@ -2,49 +2,49 @@
 $pink: #F05050;
 $charcoal: #2F2D2D;
 $mono: 'Roboto Mono', monotype;
-$rubik: 'rubik';
+$rubik: 'Rubik', sans-serif;
 $background: #F9F9F9;
 
 
 /* Text */
 
 h1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: $rubik;
   font-size: 20px;
-  color: #2F2D2D;
+  color: $charcoal;
 }
 
 .label-pink {
-  font-family: 'Roboto Mono', monotype;
+  font-family: $mono;
   font-size: 14px;
-  color: #F05050;
+  color: $pink;
 }
 
 .label-charcoal {
-  font-family: 'Roboto Mono', monotype;
+  font-family: $mono;
   font-size: 16px;
-  color: #2F2D2D;
+  color: $charcoal;
 }
 
 .callout-text {
-  font-family: 'Rubik', sans-serif;
+  font-family: $rubik;
   font-size: 55px;
-  color: #2F2D2D;
+  color: $charcoal;
 }
 
 p {
-  font-family: 'Rubik', sans-serif;
+  font-family: $rubik;
   font-size: 14px;
-  color: #2F2D2D;
+  color: $charcoal;
 }
 
 .nav-item a {
-  color: #2F2D2D;
+  color: $charcoal;
 }
 
 .nav-text:hover {
   text-decoration: none;
-  color: #F05050;
+  color: $pink;
 }
 
 /*Etc*/
@@ -67,9 +67,9 @@ nav {
 }
 
 .nav-text {
-  font-family: 'Roboto Mono', monotype;
+  font-family: $mono;
   font-size: .75em;
-  color: #F05050;
+  color: $pink;
 }
 
 .nav-text a {
@@ -77,7 +77,7 @@ nav {
 }
 
 .nav-title {
-  color: #F05050;
+  color: $pink;
   margin: auto;
 }
 
