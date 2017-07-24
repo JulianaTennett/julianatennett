@@ -89,10 +89,18 @@ nav {
   display: flex; }
 
 .label {
-  margin: auto;
+  padding: 1.5em 0;
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  background-color: rgba(255, 255, 255, 0.5); }
+  flex-direction: column;
+  background-color: white; }
+
+.label-line {
+  display: flex;
+  flex-direction: row; }
+
+.project-title {
+  padding: 0 3em; }
 
 .label-item {
-  padding: 1em 2em; }
+  padding: 1em 3em; }
