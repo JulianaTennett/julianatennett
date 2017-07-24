@@ -155,8 +155,18 @@ nav {
   }
   .project-title {
     margin: 0;
+    width: inherit;
   }
   .label-content {
     flex-direction: row;
+  }
+  .label-item {
+    padding: 0;
+  }
+  .label-item+.label-item {
+    padding-left: 6em;
+  }
+  .label-line+.label-line {
+    padding-left: 6em;
   }
 }
