@@ -50,11 +50,15 @@ p {
 
 body {
   background-color: #F9F9F9;
+  width: 100%;
 }
+
+// Nav
 
 nav {
   width: 100%;
-  margin-top: 1.5em;
+  padding: 1.5em 0;
+  background-color: #F9F9F9;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,3 +81,34 @@ nav {
   margin: auto;
   padding: 0;
 }
+
+@media (min-width: 768px) {
+  nav {
+    padding: 1.3em 6.5em;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nav-title {
+    margin: inherit;
+  }
+  .navbar-nav {
+    margin: inherit;
+  }
+}
+
+// Container
+
+// .container {
+//   padding: 0;
+// }
+//
+// .banner {
+//   width: 250%;
+//   display: flex;
+// }
+//
+// .banner-img {
+//   width: 100%;
+//   height: auto;
+//   margin: auto;
+// }
