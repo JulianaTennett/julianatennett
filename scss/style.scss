@@ -14,15 +14,15 @@ h1 {
   color: $charcoal;
 }
 
-.label-pink {
+.label-name {
   font-family: $mono;
-  font-size: 14px;
+  font-size: 12px;
   color: $pink;
 }
 
-.label-charcoal {
+.label-fill {
   font-family: $mono;
-  font-size: 16px;
+  font-size: 14px;
   color: $charcoal;
 }
 
@@ -118,8 +118,17 @@ nav {
 
 .banner {
   padding-top: 92px;
+  // background-image: url('julianatennett.github.io/img/zealery-banner.png')
+  display: flex;
 }
 
-.banner-img {
+.label {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, .5);
+}
 
+.label-item {
+  padding: 1em 2em;
 }
