@@ -91,9 +91,13 @@ nav {
 .label {
   padding: 1.5em 0;
   width: 100%;
+  background-color: white;
+  display: flex; }
+
+.label-content {
   display: flex;
   flex-direction: column;
-  background-color: white; }
+  margin: auto; }
 
 .label-line {
   display: flex;
