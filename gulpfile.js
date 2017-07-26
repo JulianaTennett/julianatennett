@@ -2,7 +2,8 @@ var gulp = require('gulp'),
     imagemin = require('gulp-imagemin'),
     cache = require('gulp-cache'),
     sass = require('gulp-sass'),
-    browserSync = require('browser-sync');
+    browserSync = require('browser-sync'),
+    twig = require('gulp-twig');
 
 gulp.task('browser-sync', function() {
   browserSync({
@@ -28,6 +29,12 @@ gulp.task('styles', function(){
     .pipe(sass())
     .pipe(gulp.dest('dist/styles/'))
     .pipe(browserSync.reload({stream:true}))
+});
+
+gulp.task('html', function () {
+    var twig = require('gulp-twig');
+    return gulp.src('./index.twig')
+      .pipe(gulp.dest('./'));
 });
 
 gulp.task('default', ['browser-sync'], function(){
